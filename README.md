@@ -176,8 +176,7 @@ otu.tab.Firmicutes <- otu.tab[,ind.Firmicutes]
 tree.Firmicutes <- prune_taxa(colnames(otu.tab.Firmicutes), tree)
 
 set.seed(100)
-OMiSA(obstime, delta, otu.tab.Firmicutes, total.reads=total.reads, 
-tree.Firmicutes, cov=covs)
+OMiSA(obstime, delta, otu.tab.Firmicutes, total.reads=total.reads, tree=tree.Firmicutes, cov=covs)
 ```
 
 Example 3. To test the higher-level taxon, p__Bacteroidetes
@@ -188,8 +187,7 @@ otu.tab.Bacteroidetes <- otu.tab[,ind.Bacteroidetes]
 tree.Bacteroidetes <- prune_taxa(colnames(otu.tab.Bacteroidetes), tree)
 
 set.seed(100)
-OMiSA(obstime, delta, otu.tab.Bacteroidetes, total.reads=total.reads, 
-tree.Bacteroidetes, cov=covs)
+OMiSA(obstime, delta, otu.tab.Bacteroidetes, total.reads=total.reads, tree=tree.Bacteroidetes, cov=covs)
 ```
 
 ## :mag: OMiSALN
@@ -349,7 +347,7 @@ otu.tab.Firmicutes <- otu.tab[,ind.Firmicutes]
 tree.Firmicutes <- prune_taxa(colnames(otu.tab.Firmicutes), tree)
 
 set.seed(100)
-OMiRKATS(obstime, delta, otu.tab.Firmicutes, total.reads=total.reads, tree.Firmicutes, cov=covs)
+OMiRKATS(obstime, delta, otu.tab.Firmicutes, total.reads=total.reads, tree=tree.Firmicutes, cov=covs)
 ```
 
 Example 3. To test the higher-level taxon, p__Bacteroidetes
@@ -360,5 +358,5 @@ otu.tab.Bacteroidetes <- otu.tab[,ind.Bacteroidetes]
 tree.Bacteroidetes <- prune_taxa(colnames(otu.tab.Bacteroidetes), tree)
 
 set.seed(100)
-OMiRKATS(obstime, delta, otu.tab.Bacteroidetes, total.reads=total.reads, tree.Bacteroidetes, cov=covs)
+OMiRKATS(obstime, delta, otu.tab.Bacteroidetes, total.reads=total.reads, tree=tree.Bacteroidetes, cov=covs)
 ```
