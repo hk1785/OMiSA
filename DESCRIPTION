@@ -1,0 +1,12 @@
+Package: OMiSA
+Version: 1.5
+Date: 2019-6-11
+Title: Optimal Microbiome-based Survival Analysis (OMiSA)
+Author: Hyunwook Koh, Alexandra E. Livanos, Martin J. Blaser, Huilin Li
+Maintainer: Hyunwook Koh <hk1785@nyu.edu>
+Description: This software package provides facilities for the non-parametric methods 1) Optimal Microbiome-based Survival Analysis (OMiSA), 2) Optimal Microbiome-based Survival Analysis using Linear and Non-linear bases of OTUs (OMiSALN) and 3) Optimal Microbiome Regression-based Kernel Association Test for Survival traits (OMiRKAT-S). OMiSA, OMiSALN and OMiRKAT-S test the association between a microbial group (e.g., community, taxon) composition and a survival (time-to-event) response on human health/disease with or without covariate adjustments (e.g., age, sex).
+NeedsCompilation: No
+Depends: R(>= 3.2.3)
+Imports: BiasedUrn, CompQuadForm, dirmult, ecodist, GUniFrac, phyloseq, robCompositions, robustbase, survival
+License: GPL-2
+URL: https://sites.google.com/site/huilinli09/software or https://github.com/hk1785/OMiSA
