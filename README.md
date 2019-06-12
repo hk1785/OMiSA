@@ -336,7 +336,7 @@ covs[,2] <- as.factor(covs[,2])
 Example 1. To test the entire community (e.g., kingdom)
 ```
 set.seed(100)
-OMiRKATS(obstime, delta, otu.tab, total.reads=NULL, tree, cov=covs)
+OMiRKATS(obstime, delta, otu.tab, total.reads=NULL, tree=tree, cov=covs)
 ```
 
 Example 2. To test the higher-level taxon, p__Firmicutes
