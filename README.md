@@ -26,6 +26,13 @@ License: GPL-2
 
 * DOI: https://doi.org/10.1186/s12864-018-4599-8
 
+## Troubleshooting Tips
+
+If you have any problems for using this R package, please report in Issues (https://github.com/hk1785/OMiSA/issues) or email Hyunwook Koh (hkoh@jhu.edu).
+
+* Tip 1. Depending on your pre-installed R libraries, this R package can require you to install additional R packages such as "gh", "usethis", "cli", etc using the command: install.packages("package_name").
+* Tip 2. Please make sure if you have the most recent package version.
+
 ## Installation
 ```
 library(devtools)
