@@ -55,6 +55,10 @@ CompQuadForm
 ```
 install.packages("CompQuadForm")
 ```
+devtools
+```
+install.packages("devtools")
+```
 dirmult
 ```
 install.packages("dirmult")
